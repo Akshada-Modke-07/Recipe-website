@@ -1,0 +1,14 @@
+body{
+    background-image: url(./photos/bgs.jpg);
+    background-size:contain;
+    background-repeat: repeat;
+   
+}
+.all1{
+    backdrop-filter: blur(10px);
+}
+@media (max-width: 768px) {
+    body{
+        background-image: none;
+    }
+}
